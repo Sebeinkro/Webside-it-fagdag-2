@@ -91,4 +91,36 @@ h1 { color: rgb(255, 255, 255);
     margin: 15px 0 30px;
   }
 
+/* Container styling */
+.box-container {
+    display: flex; /* Use flexbox to arrange items horizontally */
+    justify-content: space-around; /* Adjust the alignment as needed */
+    flex-wrap: wrap; /* Allow wrapping to the next line if there's not enough space */
+    max-width: 500px; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container */
+}
 
+/* Basic styling for the box */
+.responsive-box {
+    width: 200px; /* Set a fixed width for each box */
+    margin: 10px; /* Add margin between boxes as needed */
+    padding: 20px; /* Adjust padding as needed */
+    border: 1px solid #fff; /* Border for the box */
+    border-radius: 10px; /* Rounded corners */
+    box-sizing: border-box; /* Ensures padding and border are included in the total width */
+    text-align: center; /* Center the content */
+    overflow: hidden; /* Ensures the animation doesn't cause layout issues */
+    transition: transform 0.3s ease; /* Smooth transition for the scale effect */
+}
+
+ /* Styling for the link */
+ .responsive-box a {
+     text-decoration: none; /* Removes the default underline style */
+     color: #fff; /* Link text color */
+     font-weight: bold; /* Adjust font weight as needed */
+     display: block; /* Makes the link a block element, filling the entire width of the container */
+ }
+ /* Scale effect on hover */
+ .responsive-box:hover {
+     transform: scale(1.1); /* Adjust the scale factor as needed */
+ }
