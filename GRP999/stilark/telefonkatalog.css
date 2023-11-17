@@ -1,0 +1,15 @@
+#nummertabell {
+    background-color: yellowgreen;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#nummertabell th, #nummertabell td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+#nummertabell th {
+    background-color: #f2f2f2;
+}

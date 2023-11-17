@@ -1,3 +1,44 @@
+
+/* Sett meg på rett sted */
+
+/* Disse Style Sheet er for alle dokumenter */
+
+/* Jeg er sorterer og designer */
+
+/* Jeg passer på at teksten ikke er plassert øverst på siden */
+
+table {
+    border-collapse: collapse;
+    border-bottom: 2px solid #3f4259;
+  }
+  th, td {
+    border: 1px solid #f6f5f4;
+    padding: 8px;
+    border: 1px solid #000000;
+  }
+  thead > tr {
+    background-color: #3f4259;
+    color: #4e6cc8;
+  }
+  tbody > tr:nth-child(odd) {
+    background-color: #f6f7fa;
+  } 
+  
+  body {
+    background-color: #f5f5f5; 
+    font-family: Georgia, serif; 
+  }
+  #hoved {         
+    margin: 20px;         
+    padding: 20px;	             
+    background-color: white; 	 
+    border: 1px solid #cccccc;
+  }
+  h1 {
+    font-family: Arial, sans-serif; 
+  }
+
+  
 body, html {
     height: 100%;
     margin: 0;
@@ -9,3 +50,22 @@ body, html {
 #main {
     text-align: center;
 }
+
+#topptekst {
+    margin-bottom: 20px;
+}
+
+#meldingstabell {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+#meldingstabell th, #meldingstabell td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+#meldingstabell th {
+    background-color: #f2f2f2;
+}
+
